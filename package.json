@@ -1,0 +1,44 @@
+{
+  "name": "pnpsitetemplates",
+  "version": "1.0.0",
+  "description": "PnP site templates",
+  "author": "Digia",
+  "license": "Propietary",
+  "devDependencies": {
+    "@types/handlebars": "^4.0.36",
+    "@types/sharepoint": "2013.1.9",
+    "browserify": "14.3.0",
+    "child_process": "^1.0.2",
+    "gulp": "3.9.1",
+    "gulp-cached": "1.1.1",
+    "gulp-clean-css": "3.0.4",
+    "gulp-concat": "2.6.1",
+    "gulp-jshint": "2.0.1",
+    "gulp-ng-annotate": "2.0.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-spsave": "3.0.0",
+    "gulp-typescript": "3.1.6",
+    "gulp-uglify": "2.1.2",
+    "jshint": "2.9.3",
+    "jshint-stylish": "2.2.1",
+    "stringify": "^5.1.0",
+    "tsify": "3.0.1",
+    "typescript": "2.3.2",
+    "underscore": "1.8.3",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0"
+  },
+  "scripts": {
+    "build": "echo \"Starting build, please stand by...\" && gulp build",
+    "build-debug": "echo \"Starting debug build, please stand by...\" && gulp build-debug",
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.0",
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "sp-pnp-js": "^2.0.5"
+  }
+}

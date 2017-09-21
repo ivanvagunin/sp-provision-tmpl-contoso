@@ -1,0 +1,11 @@
+ {{#each news}}
+ <div class="newsRow">
+     <div class="newsBody">
+         <h2><p class="newsTitle"><a href="/Lists/Asiakastiedotteet/DispForm.aspx?ID={{ItemId}}">{{title}}</a></p></h2>
+         <p>
+             <span class="newsText">{{body}}..<br />
+             <a href="{{url}}">Read more...</a></span>
+        </p>
+    </div>
+ </div>
+{{/each}}

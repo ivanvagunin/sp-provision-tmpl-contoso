@@ -1,0 +1,27 @@
+<div class="footer ms-dialogHidden">
+    <table id="footerTable">
+        <tbody>
+        <tr>
+            <td id="leftRow">
+                <h2 id="leftH2">Contoso Ltd.</h2>
+                <span>95 Guildford Rd<br>KT24 1RU EAST HORSLEY<br><br>ID 123456-7</span>
+            </td>
+            <td id="centerRow">
+                <h2 id="centerH2">Contact Information</h2><span>078 1072 6055<br>contact@contoso.com</span>
+            </td>
+            <td id="centerRightRow">
+                <h2 id="centerRightH2">Links</h2>
+                <div>
+                    {{#each links}}
+                    <span class="footerLink" style="padding-bottom: 5px;"><a href="{{url}}" target="_blank">{{title}}</a></span><br>
+                    {{/each}}
+                </div>
+           </td>
+            <td id="rightRow">
+                <h2 id="rightH2">Social</h2>
+                <div><span class="footerLink"><a href="https://www.linkedin.com/company/contoso" target="_blank">LinkedIn</a></span><br></div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>

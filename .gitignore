@@ -1,0 +1,13 @@
+settings.js
+built/**
+/**/obj/**
+/**/bin/**
+/**/Debug/**
+/**/Release/**
+/**/Packages/**
+/**/.vs/**
+/**/node_modules/**
+/**/*.user
+/**/*.suo
+/**/*.orig
+/**/*.dbmdl
